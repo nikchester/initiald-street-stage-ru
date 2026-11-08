@@ -387,7 +387,12 @@ def redraw(g, spec):
     im, info = gim.gim_to_image(g)
     im = im.convert('RGBA')
     H = im.height
-    if 'header' in spec and 'footer' in spec:
+    if 'header_rows' in spec or 'footer_rows' in spec:     # bars inside a bigger texture
+        if 'header_rows' in spec:
+            draw_header(im, spec['header'], *spec['header_rows'])
+        if 'footer_rows' in spec:
+            draw_footer(im, spec['footer'], *spec['footer_rows'])
+    elif 'header' in spec and 'footer' in spec:
         draw_header(im, spec['header'], 0, H // 2)
         draw_footer(im, spec['footer'], H // 2, H)
     elif 'header' in spec:

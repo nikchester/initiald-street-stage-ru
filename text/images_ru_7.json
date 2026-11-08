@@ -1828,5 +1828,316 @@
 "max_size": 20
 }
 ]
+},
+"1c14f9d4379c": {
+"text": [
+{
+"box": [
+0,
+4,
+41,
+41
+],
+"text": "№",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 36
+},
+{
+"box": [
+47,
+4,
+84,
+41
+],
+"text": "1",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 36
+},
+{
+"box": [
+89,
+4,
+128,
+41
+],
+"text": "2",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 36
+},
+{
+"box": [
+134,
+4,
+173,
+41
+],
+"text": "3",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 36
+},
+{
+"box": [
+179,
+4,
+218,
+41
+],
+"text": "4",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 36
+},
+{
+"box": [
+224,
+4,
+263,
+41
+],
+"text": "5",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 36
+},
+{
+"box": [
+269,
+4,
+308,
+41
+],
+"text": "",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 36
+},
+{
+"box": [
+314,
+4,
+353,
+41
+],
+"text": "6",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 36
+}
+]
+},
+"901d524f21cb": {
+"text": [
+{
+"box": [
+3,
+0,
+70,
+12
+],
+"text": "Уровень:",
+"mask": "light",
+"thr": 170,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+}
+]
+},
+"4beedd3991b2": {
+"text": [
+{
+"text": "Цутисака",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2,
+"font": "title",
+"max_size": 48
+}
+]
+},
+"5441bf937572": {
+"header": "ВЫБЕРИТЕ КАРТУ ДЛЯ ПРОСМОТРА",
+"header_rows": [
+0,
+31
+],
+"footer": [
+"Выбор",
+"ОК",
+"Назад",
+"Смена карт"
+],
+"footer_rows": [
+31,
+49
+]
+},
+"e184c88ad17f": {
+"text": [
+{
+"box": [
+18,
+8,
+170,
+48
+],
+"text": "ЧИСЛО КАРТ",
+"mask": "light",
+"thr": 60,
+"grow": 3,
+"fill": [
+235,
+240,
+255
+],
+"outline": [
+30,
+30,
+60
+],
+"stroke": 1,
+"font": "title",
+"glow": [
+255,
+120,
+20
+],
+"max_size": 22
+},
+{
+"box": [
+234,
+0,
+256,
+64
+],
+"text": "Е\nС\nТ\nЬ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13
+}
+]
 }
 }
