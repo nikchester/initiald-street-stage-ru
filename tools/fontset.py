@@ -9,20 +9,22 @@ import sys
 
 sys.path.insert(0, os.path.dirname(__file__))
 import gimfont  # noqa: E402
+import rutext  # noqa: E402
 import xbb  # noqa: E402
 
 
 def parse_lst(data):
     out = []
-    for line in data.decode('cp932').splitlines():
+    # "<char>=<n>" or just "<char>" per line; the game ignores '=', digits and line breaks
+    for line in rutext.decode(data).splitlines():
         if line:
-            ch, idx = line.rsplit('=', 1)
-            out.append((ch, int(idx)))
+            ch = line.rsplit('=', 1)[0] if '=' in line[1:] else line
+            out.append((ch, len(out)))
     return out
 
 
 def dump_lst(items):
-    return ''.join(f'{c}={i}\n' for c, i in items).encode('cp932')
+    return rutext.encode(''.join(f'{c}={i}\n' for c, i in items))
 
 
 class _GimBytes(gimfont.Gim):

@@ -14,6 +14,7 @@ behind the grown segment; one R_MIPS_26 relocation is added for the new jal.
 import struct
 
 import prx
+import rutext
 
 # ---- tiny MIPS encoder ------------------------------------------------------
 R = {'zero': 0, 'at': 1, 'v0': 2, 'v1': 3, 'a0': 4, 'a1': 5, 'a2': 6, 'a3': 7,
@@ -36,6 +37,7 @@ def mult(rs, rt): return _r(rs, rt, 'zero', 0, 0x18)
 def mflo(rd): return _r('zero', 'zero', rd, 0, 0x12)
 def sra(rd, rt, sa): return _r('zero', rt, rd, sa, 0x03)
 def jr(rs): return _r(rs, 'zero', 'zero', 0, 0x08)
+def subu(rd, rs, rt): return _r(rs, rt, rd, 0, 0x23)
 NOP = 0
 
 
@@ -59,7 +61,7 @@ def width_fn(base):
     def at(i):
         return base + i * 4
     # labels by instruction index
-    L_L, L_CYR, L_NOT82, L_DONE = 6, 20, 16, 27
+    L_L, L_CYR, L_NOT82, L_DONE = 6, 20, 16, 29
     code = [
         addu('t0', 's2', 's1'),                 # 0  t0 -> current char
         lbu('t1', 0, 't0'),                     # 1  lead byte
@@ -85,11 +87,13 @@ def width_fn(base):
         lbu('t1', 0, 't0'),                     # 21
         beq('t1', 'zero', at(22), at(L_DONE)),  # 22
         NOP,                                    # 23
-        mult('a0', 't1'),                       # 24
+        lw('a0', 0x324, 's3'),                  # 24 glyph draw width
+        mult('a0', 't1'),                       # 25
         mflo('a0'),                             # 25
         sra('a0', 'a0', 4),                     # 26
-        jr('ra'),                               # 27 DONE
-        lw('v0', 0x334, 's3'),                  # 28 (delay slot)
+        subu('a0', 'a0', 'v1'),                 # 27 font spacing (v1) does not apply to narrow glyphs
+        jr('ra'),                               # 28 DONE
+        lw('v0', 0x334, 's3'),                  # 29 (delay slot)
     ]
     blob = b''.join(struct.pack('<I', c) for c in code)
     return blob + b'\0' * (0x80 - len(blob))
@@ -124,7 +128,7 @@ def build(boot_bytes, strings, widths):
     # 2. strings
     moved = inplace = 0
     for old_va, text in strings:
-        data = text.encode('cp932')
+        data = rutext.encode(text)
         off = p.va2off(old_va)
         end = p.b.index(b'\0', off)
         nxt = end

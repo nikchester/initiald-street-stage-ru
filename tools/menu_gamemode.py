@@ -83,7 +83,7 @@ def header():
 
 def footer():
     im = src(1, 'ups')
-    for box, dx in (((167, 1, 206, 17), 60), ((231, 1, 270, 17), 124), ((301, 1, 350, 17), 200)):
+    for box, dx in (((167, 1, 206, 17), 60), ((231, 1, 270, 17), 124), ((301, 1, 346, 17), 200)):
         art.pattern_fill(im, box, 4, dx)
     f = art.font(art.SMALL_FONT, 10)
     dr = ImageDraw.Draw(im)

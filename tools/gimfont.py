@@ -125,27 +125,27 @@ def render_glyph(ch, font_path=DEFAULT_FONT, size=15, dy=-1, stretch=1.25, max_w
     return [[im.getpixel((xx, yy)) for xx in range(CELL)] for yy in range(CELL)]
 
 
-def render_prop(ch, font_path=DEFAULT_FONT, size=15, dy=-1, gap=1, stretch=1.0):
+def render_prop(ch, font_path=DEFAULT_FONT, size=15, dy=-1, gap=1, stretch=1.0, cell=CELL):
     """Glyph for the proportional renderer: ink starts at x=1.
-    Returns (16x16 alpha rows 0..255, advance width in px)."""
+    Returns (cell x cell alpha rows 0..255, advance width in px)."""
     key = (font_path, size)
     if key not in _font_cache:
         _font_cache[key] = ImageFont.truetype(font_path, size)
     font = _font_cache[key]
-    big = Image.new('L', (CELL * 3, CELL), 0)
+    big = Image.new('L', (cell * 3, cell), 0)
     dr = ImageDraw.Draw(big)
-    y = (CELL - size) // 2 + dy
-    dr.text((CELL, y), ch, fill=255, font=font)
+    y = (cell - size) // 2 + dy
+    dr.text((cell, y), ch, fill=255, font=font)
     box = big.getbbox()
-    im = Image.new('L', (CELL, CELL), 0)
+    im = Image.new('L', (cell, cell), 0)
     if not box:
-        return [[0] * CELL for _ in range(CELL)], max(3, size // 3)
-    glyph = big.crop((box[0], 0, box[2], CELL))
-    w = min(CELL - 1, max(1, round(glyph.width * stretch)))
+        return [[0] * cell for _ in range(cell)], max(3, size // 3)
+    glyph = big.crop((box[0], 0, box[2], cell))
+    w = min(cell - 1, max(1, round(glyph.width * stretch)))
     if w != glyph.width:
-        glyph = glyph.resize((w, CELL), Image.LANCZOS)
+        glyph = glyph.resize((w, cell), Image.LANCZOS)
     im.paste(glyph, (1, 0))
-    return [[im.getpixel((xx, yy)) for xx in range(CELL)] for yy in range(CELL)], w + 1 + gap
+    return [[im.getpixel((xx, yy)) for xx in range(cell)] for yy in range(cell)], w + 1 + gap
 
 
 def read_lst(path):
