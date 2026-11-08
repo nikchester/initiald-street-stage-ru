@@ -85,6 +85,17 @@ def build(entries_data):
     return bytes(out + body)
 
 
+def save(dst, data, gz, src_name):
+    """Write raw archive bytes, gzip-compressed like the original if gz."""
+    if gz:
+        name = src_name[:-3] if src_name.endswith('.gz') else src_name
+        with open(dst, 'wb') as raw:
+            with gzip.GzipFile(filename=name, mode='wb', fileobj=raw, compresslevel=9, mtime=0) as g:
+                g.write(data)
+    else:
+        open(dst, 'wb').write(data)
+
+
 def pack(src, dst):
     m = json.load(open(os.path.join(src, '_manifest.json'), encoding='utf-8'))
     items = []
