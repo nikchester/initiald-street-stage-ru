@@ -1,0 +1,9 @@
+# Game data is copyrighted: never commit it
+*.iso
+*.cso
+extracted/
+work/
+build/
+
+__pycache__/
+*.pyc
