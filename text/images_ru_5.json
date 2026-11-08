@@ -1145,5 +1145,538 @@
 "max_size": 13
 }
 ]
+},
+"6f41a04ae692": {
+"text": [
+{
+"box": [
+1,
+6,
+26,
+29
+],
+"text": "№",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+48,
+6,
+71,
+29
+],
+"text": "1",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+93,
+6,
+118,
+29
+],
+"text": "",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+1,
+38,
+24,
+60
+],
+"text": "2",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+47,
+38,
+71,
+60
+],
+"text": "3",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+93,
+38,
+119,
+60
+],
+"text": "4",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+0,
+69,
+25,
+92
+],
+"text": "5",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+47,
+69,
+72,
+92
+],
+"text": "6",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+1,
+102,
+72,
+125
+],
+"text": "ФИНАЛ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+}
+]
+},
+"e387ad76c209": {
+"text": [
+{
+"box": [
+42,
+1,
+61,
+19
+],
+"text": "ДЕНЬ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+70,
+1,
+90,
+19
+],
+"text": "НОЧЬ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+97,
+1,
+118,
+19
+],
+"text": "ДОЖДЬ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+2,
+25,
+22,
+43
+],
+"text": "СНЕГ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+29,
+25,
+66,
+43
+],
+"text": "ЯСНО",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+75,
+25,
+114,
+43
+],
+"text": "РЕВЕРС",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+2,
+49,
+55,
+67
+],
+"text": "ПРОТИВ Ч.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+66,
+49,
+120,
+67
+],
+"text": "ПО ЧАС.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+1,
+73,
+37,
+91
+],
+"text": "ВВЕРХ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+50,
+73,
+83,
+91
+],
+"text": "ВНИЗ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+2,
+97,
+40,
+115
+],
+"text": "ТУДА",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+},
+{
+"box": [
+48,
+97,
+86,
+115
+],
+"text": "НАЗАД",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 18,
+"squeeze": true
+}
+]
 }
 }

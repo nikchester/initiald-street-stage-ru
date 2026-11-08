@@ -377,7 +377,17 @@ def draw_text_items(im, spec):
             halo = layer.filter(ImageFilter.GaussianBlur(it.get('glow_r', 4))).point(lambda v: min(255, v * 3))
             canvas.paste(Image.new('RGBA', canvas.size, tuple(it['glow']) + (255,)), (0, 0), halo)
             dr = ImageDraw.Draw(canvas)
-        dr.text((x, y), it['text'], font=f, fill=tuple(it.get('fill', [255, 255, 255])) + (255,), **kw)
+        if it.get('squeeze'):     # full-height text squeezed to the box width
+            f = ImageFont.truetype(path, it.get('max_size', y1 - y0))
+            tmp = Image.new('RGBA', (2000, 200), (0, 0, 0, 0))
+            ImageDraw.Draw(tmp).text((10, 10), it['text'], font=f, fill=tuple(it.get('fill', [255, 255, 255])) + (255,), **kw)
+            tmp = tmp.crop(tmp.getbbox())
+            w = min(tmp.width, x1 - x0)
+            h = min(tmp.height, y1 - y0)
+            tmp = tmp.resize((w, h), Image.LANCZOS)
+            canvas.alpha_composite(tmp, (int(x0 + (x1 - x0 - w) / 2), int(y0 + (y1 - y0 - h) / 2)))
+        else:
+            dr.text((x, y), it['text'], font=f, fill=tuple(it.get('fill', [255, 255, 255])) + (255,), **kw)
         arr = np.array(canvas)
     im.paste(Image.fromarray(arr, 'RGBA'), (0, 0))
 

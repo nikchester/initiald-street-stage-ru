@@ -2139,5 +2139,1305 @@
 "max_size": 13
 }
 ]
+},
+"bcd8da303590": {
+"text": [
+{
+"box": [
+0,
+1,
+250,
+31
+],
+"text": "Ицуки Такэути",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+33,
+250,
+63
+],
+"text": "Кэндзи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+65,
+250,
+95
+],
+"text": "Синго Сёдзи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+97,
+250,
+127
+],
+"text": "Тоору Суэцугу",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+129,
+250,
+159
+],
+"text": "Ацуро Каваи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+161,
+250,
+191
+],
+"text": "Мако и Саюки",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+193,
+250,
+223
+],
+"text": "Двое из Токио",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+225,
+250,
+255
+],
+"text": "Кэнта Накамура",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+257,
+250,
+287
+],
+"text": "Кэйсукэ Такахаси",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+289,
+250,
+319
+],
+"text": "Коитиро Икэтани",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+321,
+250,
+351
+],
+"text": "Такэси Накадзато",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+353,
+250,
+383
+],
+"text": "Кёити Судо",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+385,
+250,
+415
+],
+"text": "Рёсукэ Такахаси",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+417,
+250,
+447
+],
+"text": "Такуми Фудзивара",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+449,
+250,
+479
+],
+"text": "Бунта Фудзивара",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+0,
+481,
+250,
+511
+],
+"text": "Сэйдзи Иваки",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+1,
+510,
+31
+],
+"text": "Кай Когасива",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+33,
+510,
+63
+],
+"text": "Мики",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+65,
+510,
+95
+],
+"text": "Дайки Ниномия",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+97,
+510,
+127
+],
+"text": "Смайли Сакаи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+129,
+510,
+159
+],
+"text": "Томоюки Тати",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+161,
+510,
+191
+],
+"text": "Нобухико Акияма",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+193,
+510,
+223
+],
+"text": "Сакамото",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+225,
+510,
+255
+],
+"text": "Ватару Акияма",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+257,
+510,
+287
+],
+"text": "Кёко Ивасэ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+289,
+510,
+319
+],
+"text": "Парень на Evo V",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+},
+{
+"box": [
+256,
+321,
+510,
+351
+],
+"text": "Парень на Evo VI",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 24,
+"wider": 20
+}
+]
+},
+"75867e2b1802": {
+"text": [
+{
+"box": [
+0,
+0,
+255,
+16
+],
+"text": "[Akina Speed Stars]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+16,
+255,
+32
+],
+"text": "[Myogi Night Kids]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+32,
+255,
+48
+],
+"text": "[Seven Star Leaf]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+48,
+255,
+64
+],
+"text": "[Impact Blue]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+64,
+255,
+80
+],
+"text": "[Akagi Red Suns]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+80,
+255,
+96
+],
+"text": "[Emperor]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+96,
+255,
+112
+],
+"text": "[Тофу Фудзивара]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+112,
+255,
+128
+],
+"text": "[Школа Тодо]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+128,
+255,
+144
+],
+"text": "[Выпускник школы Тодо]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+144,
+255,
+160
+],
+"text": "[Сборная Сайтамы]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+},
+{
+"box": [
+0,
+160,
+255,
+176
+],
+"text": "[Project D]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"max_size": 15,
+"wider": 20
+}
+]
+},
+"d5fd5352c9f4": {
+"text": [
+{
+"box": [
+46,
+0,
+71,
+24
+],
+"text": "ДЕНЬ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+80,
+0,
+106,
+24
+],
+"text": "НОЧЬ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+112,
+0,
+139,
+24
+],
+"text": "ДОЖДЬ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+147,
+0,
+173,
+24
+],
+"text": "СНЕГ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+0,
+32,
+65,
+56
+],
+"text": "ПРОТИВ Ч.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+91,
+32,
+155,
+56
+],
+"text": "ПО ЧАС.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+0,
+64,
+46,
+88
+],
+"text": "ЯСНО",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+56,
+64,
+100,
+88
+],
+"text": "ВВЕРХ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+115,
+64,
+155,
+88
+],
+"text": "ВНИЗ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+1,
+96,
+48,
+120
+],
+"text": "РЕВЕРС",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+57,
+96,
+104,
+120
+],
+"text": "ТУДА",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+},
+{
+"box": [
+114,
+96,
+159,
+120
+],
+"text": "НАЗАД",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "title",
+"max_size": 22,
+"squeeze": true
+}
+]
 }
 }

@@ -1,0 +1,2391 @@
+{
+"_comment": "Project D homepage labels.",
+"840bc78447a4": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"9ee7c1c354a4": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"3c26e54f718a": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"1a5d3b1321d7": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"49105ec6d360": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"3aed8870da6e": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"8cc3c1ec7696": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"d5a3f331a8bd": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"80d623cf133c": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"fa068e6a2151": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"99789ab23a2d": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"12fcf62562b7": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"d00c349eb252": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"5799114a4028": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"9d93e316dc6b": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"bb0ca71349e6": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"9917351ee905": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"9c696e81bb8e": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"98f1a956135d": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"cb1c2cc50900": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"6ae72584b45e": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"432477db84b3": {
+"text": [
+{
+"box": [
+1,
+3,
+74,
+29
+],
+"text": "Альбом",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+},
+{
+"box": [
+1,
+35,
+74,
+61
+],
+"text": "Исполнитель",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"fad8655d64e5": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+}
+]
+},
+"c96fb8904ec3": {
+"text": [
+{
+"box": [
+1,
+3,
+42,
+29
+],
+"text": "Инфо",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left"
+}
+]
+},
+"acd7d4a97b0a": {
+"text": [
+{
+"box": [
+0,
+0,
+72,
+17
+],
+"text": "О трассе",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+0,
+16,
+72,
+33
+],
+"text": "Разбор трассы",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+}
+]
+},
+"6326df4a806a": {
+"text": [
+{
+"box": [
+1,
+0,
+85,
+17
+],
+"text": "Смотреть повтор",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+1,
+16,
+85,
+33
+],
+"text": "Удалить повтор",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+}
+]
+},
+"de8add662acd": {
+"text": [
+{
+"box": [
+-1,
+-1,
+65,
+33
+],
+"text": "Новости",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+}
+]
+},
+"37d28dd76c16": {
+"text": [
+{
+"box": [
+1,
+0,
+86,
+16
+],
+"text": "Заезд на время",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+1,
+16,
+56,
+32
+],
+"text": "Сетевая гонка",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+2,
+32,
+98,
+48
+],
+"text": "Выбор водителя",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+1,
+49,
+56,
+65
+],
+"text": "Рекорды",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+2,
+64,
+57,
+80
+],
+"text": "Готово",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+1,
+80,
+113,
+96
+],
+"text": "Рекорды сети",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 40
+}
+]
+},
+"9cf97ef9de9b": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Akagi Red Suns",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"8f1810756d44": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Akagi Red Suns",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"33d26c65ef84": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Akina Speed Stars",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"44cd22ed80b0": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Akina Speed Stars",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"643588ea2d67": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Akina Speed Stars",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"f190515ed0a3": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Myogi Night Kids",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"3bd13826df72": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Myogi Night Kids",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"6640d94f883f": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+}
+]
+},
+"027dbdf47b7d": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Akagi Red Suns",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"35d7c6c63794": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Emperor",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"a7fada5ebd6f": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Emperor",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"5560e896a01e": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Сборная Сайтамы",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"3959a8bc8494": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+}
+]
+},
+"02980e010ca7": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Seven Star Leaf",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"c09019dfa82c": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Seven Star Leaf",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"4390895b3c0a": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Школа Тодо",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"bb93abb0fabd": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Школа Тодо",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"38387b257409": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Школа Тодо (выпускник)",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"28b7811a5979": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+}
+]
+},
+"30759094ca7c": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+}
+]
+},
+"0c4b420803a2": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Сборная Сайтамы",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"15e9c0cfcd5a": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Сборная Сайтамы",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"d3eda62a2f68": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+}
+]
+},
+"bbd6124fd6fd": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+}
+]
+},
+"0ef5fea51e5f": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Project D",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"2ea6dd94fcef": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Project D",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"10eb19af6a85": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Project D",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"9d2dc447896a": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+},
+{
+"box": [
+46,
+36,
+230,
+60
+],
+"text": "Тофу Фудзивара",
+"mask": "dark",
+"thr": 110,
+"grow": 1,
+"fill": [
+10,
+10,
+10
+],
+"font": "bold",
+"max_size": 12,
+"align": "left"
+}
+]
+},
+"6ade43450b49": {
+"text": [
+{
+"box": [
+1,
+35,
+42,
+61
+],
+"text": "Команда",
+"mask": "light",
+"thr": 150,
+"grow": 1,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 11,
+"align": "left"
+}
+]
+}
+}
