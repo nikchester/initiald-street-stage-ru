@@ -1,0 +1,2434 @@
+{
+"_comment": "Tuning lists (rows of 16 px), tuning titles.",
+"52d0e60b5e50": {
+"text": [
+{
+"box": [
+1,
+1,
+174,
+16
+],
+"text": "ЭТАП 1 [впуск]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+17,
+147,
+31
+],
+"text": "ЭТАП 2 [замена ЭБУ]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+33,
+174,
+48
+],
+"text": "ЭТАП 2 [охлаждение]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+49,
+147,
+63
+],
+"text": "ЭТАП 3 [замена ЭБУ]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+64,
+222,
+80
+],
+"text": "ЭТАП 3 [турбонаддув]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+80,
+174,
+95
+],
+"text": "ЭТАП 4 [кузов]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+96,
+235,
+112
+],
+"text": "ЭТАП 5 [нагнетатель]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+112,
+222,
+128
+],
+"text": "ЭТАП 5 [турбонаддув]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+128,
+241,
+143
+],
+"text": "ЭТАП 5 [большая турбина]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+144,
+240,
+160
+],
+"text": "ЭТАП 5 [антилаг]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+160,
+209,
+176
+],
+"text": "ЭТАП 5 [гоночный мотор]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+176,
+224,
+191
+],
+"text": "ЭТАП 5 [расточка 1800 cc]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+193,
+174,
+208
+],
+"text": "ЭТАП 5 [трансмиссия]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+208,
+171,
+223
+],
+"text": "Возд. интеркулера",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+224,
+127,
+239
+],
+"text": "Воздухозаборники",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+241,
+85,
+255
+],
+"text": "Аэрокит",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+}
+]
+},
+"39277528d0bc": {
+"text": [
+{
+"box": [
+1,
+1,
+174,
+16
+],
+"text": "ЭТАП 1 [впуск]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+17,
+147,
+31
+],
+"text": "ЭТАП 2 [замена ЭБУ]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+33,
+174,
+48
+],
+"text": "ЭТАП 2 [охлаждение]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+49,
+147,
+63
+],
+"text": "ЭТАП 3 [замена ЭБУ]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+64,
+222,
+80
+],
+"text": "ЭТАП 3 [турбонаддув]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+80,
+174,
+95
+],
+"text": "ЭТАП 4 [кузов]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+96,
+235,
+112
+],
+"text": "ЭТАП 5 [нагнетатель]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+112,
+222,
+128
+],
+"text": "ЭТАП 5 [турбонаддув]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+128,
+241,
+143
+],
+"text": "ЭТАП 5 [большая турбина]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+144,
+240,
+160
+],
+"text": "ЭТАП 5 [антилаг]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+160,
+209,
+176
+],
+"text": "ЭТАП 5 [гоночный мотор]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+176,
+224,
+191
+],
+"text": "ЭТАП 5 [расточка 1800 cc]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+193,
+174,
+208
+],
+"text": "ЭТАП 5 [трансмиссия]",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+208,
+171,
+223
+],
+"text": "Возд. интеркулера",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+224,
+127,
+239
+],
+"text": "Воздухозаборники",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+241,
+85,
+255
+],
+"text": "Аэрокит",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+}
+]
+},
+"844d1af67dd8": {
+"text": [
+{
+"box": [
+1,
+1,
+113,
+15
+],
+"text": "Аэро-капот",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+17,
+85,
+31
+],
+"text": "Аэро-зеркала",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+33,
+141,
+47
+],
+"text": "Наклейка Emperor",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+48,
+127,
+63
+],
+"text": "Расширители арок",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+65,
+113,
+79
+],
+"text": "Карбоновый багажник",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+81,
+127,
+95
+],
+"text": "Карбоновый капот",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+97,
+99,
+111
+],
+"text": "Пороги",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+113,
+71,
+127
+],
+"text": "Наклейка",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+128,
+183,
+143
+],
+"text": "Наклейка Speed Stars",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+145,
+113,
+159
+],
+"text": "Тонировка",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+160,
+197,
+175
+],
+"text": "Наклейка Seven Star Leaf",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+176,
+87,
+191
+],
+"text": "Мягкий верх",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+0,
+192,
+87,
+207
+],
+"text": "Жёсткий верх",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+208,
+141,
+223
+],
+"text": "Полный обвес арок",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+224,
+87,
+239
+],
+"text": "Противотуманки",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+240,
+127,
+255
+],
+"text": "Передний спойлер",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+}
+]
+},
+"c1f87599e669": {
+"text": [
+{
+"box": [
+1,
+1,
+113,
+15
+],
+"text": "Аэро-капот",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+17,
+85,
+31
+],
+"text": "Аэро-зеркала",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+33,
+141,
+47
+],
+"text": "Наклейка Emperor",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+48,
+127,
+63
+],
+"text": "Расширители арок",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+65,
+113,
+79
+],
+"text": "Карбоновый багажник",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+81,
+127,
+95
+],
+"text": "Карбоновый капот",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+97,
+99,
+111
+],
+"text": "Пороги",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+113,
+71,
+127
+],
+"text": "Наклейка",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+128,
+183,
+143
+],
+"text": "Наклейка Speed Stars",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+145,
+113,
+159
+],
+"text": "Тонировка",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+160,
+197,
+175
+],
+"text": "Наклейка Seven Star Leaf",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+176,
+87,
+191
+],
+"text": "Мягкий верх",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+0,
+192,
+87,
+207
+],
+"text": "Жёсткий верх",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+208,
+141,
+223
+],
+"text": "Полный обвес арок",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+224,
+87,
+239
+],
+"text": "Противотуманки",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+240,
+127,
+255
+],
+"text": "Передний спойлер",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+}
+]
+},
+"fa77ace925fc": {
+"text": [
+{
+"box": [
+0,
+1,
+58,
+15
+],
+"text": "Диски",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+0,
+17,
+71,
+31
+],
+"text": "Капот",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+32,
+85,
+47
+],
+"text": "Брызговики",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+49,
+57,
+63
+],
+"text": "Глушитель",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+65,
+43,
+79
+],
+"text": "Зеркала",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+3,
+80,
+99,
+95
+],
+"text": "Задний спойлер",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+3,
+96,
+85,
+111
+],
+"text": "Задний бампер",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+113,
+155,
+127
+],
+"text": "Наклейка Red Suns",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+0,
+129,
+155,
+144
+],
+"text": "Наклейка «Тофу Фудзивара»",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+3,
+144,
+156,
+160
+],
+"text": "Без заднего спойлера",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+}
+]
+},
+"bdbb2821740e": {
+"text": [
+{
+"box": [
+0,
+1,
+58,
+15
+],
+"text": "Диски",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+0,
+17,
+71,
+31
+],
+"text": "Капот",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+32,
+85,
+47
+],
+"text": "Брызговики",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+49,
+57,
+63
+],
+"text": "Глушитель",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+1,
+65,
+43,
+79
+],
+"text": "Зеркала",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+3,
+80,
+99,
+95
+],
+"text": "Задний спойлер",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+3,
+96,
+85,
+111
+],
+"text": "Задний бампер",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+2,
+113,
+155,
+127
+],
+"text": "Наклейка Red Suns",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+0,
+129,
+155,
+144
+],
+"text": "Наклейка «Тофу Фудзивара»",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+3,
+144,
+156,
+160
+],
+"text": "Без заднего спойлера",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+230,
+40
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "left",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+}
+]
+},
+"42e0d78bd031": {
+"text": [
+{
+"box": [
+28,
+2,
+84,
+16
+],
+"text": "Курс A",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "center",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+29,
+18,
+84,
+32
+],
+"text": "Курс B",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "center",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+28,
+33,
+84,
+48
+],
+"text": "Курс C",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "center",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+29,
+50,
+84,
+64
+],
+"text": "Курс D",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "center",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+},
+{
+"box": [
+4,
+65,
+106,
+80
+],
+"text": "Обычный курс",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"align": "center",
+"wider": 60,
+"max_size": 14,
+"font": "bold",
+"taller": 3
+}
+]
+}
+}

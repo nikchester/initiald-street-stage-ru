@@ -194,17 +194,37 @@ def draw_plate(im, text, spec):
     xa, xb = opaque[0], opaque[-1] + 1
     src = xa + spec.get('clean_x', 16)
     margin = spec.get('margin', 14)
+    # the game shows the text as its own sprite clipped to the ORIGINAL text box:
+    # the new text has to fit inside the dark-ink extent of the old one
+    dark = [x for x in range(xa + margin, xb - margin)
+            if any(px[x, y][3] > 200 and luma(px[x, y]) < 60 for y in range(y0 + 2, y1 - 2))]
+    tx0, tx1 = (dark[0], dark[-1] + 1) if dark else (xa + margin, xb - margin)
     for y in range(y0 + 2, y1 - 2):
         c = px[src, y]
         for x in range(xa + margin, xb - margin):
             px[x, y] = c
-    f = fit(F_TITLE, text, xb - xa - 2 * margin - 6, int((y1 - y0) * 0.72), stroke=1)
+    bw = tx1 - tx0 + spec.get('extra', 2)
+    hh = int((y1 - y0) * 0.72)
+    lines = [text]
+    f = fit(F_TITLE, text, bw, hh, stroke=1)
+    if f.size < hh * 0.55 and ' ' in text:      # two lines read better than tiny type
+        words = text.split(' ')
+        best = None
+        for i in range(1, len(words)):
+            two = [' '.join(words[:i]), ' '.join(words[i:])]
+            ff = min((fit(F_TITLE, t2, bw, hh // 2 + 1, stroke=1) for t2 in two), key=lambda q: q.size)
+            if not best or ff.size > best[1].size:
+                best = (two, ff)
+        if best and best[1].size > f.size:
+            lines, f = best
     dr = ImageDraw.Draw(im)
-    l, t, r, b = dr.textbbox((0, 0), text, font=f, stroke_width=1)
-    x = (xa + xb) / 2 - (r - l) / 2 - l
-    y = (y0 + y1) / 2 - (b - t) / 2 - t
-    dr.text((x, y), text, font=f, fill=tuple(spec.get('fill', [10, 10, 10])) + (255,),
-            stroke_width=1, stroke_fill=tuple(spec.get('outline', [235, 235, 235])) + (255,))
+    lh = (y1 - y0 - 4) / len(lines)
+    for i, line in enumerate(lines):
+        l, t, r, b = dr.textbbox((0, 0), line, font=f, stroke_width=1)
+        x = (tx0 + tx1) / 2 - (r - l) / 2 - l
+        y = y0 + 2 + i * lh + (lh - (b - t)) / 2 - t
+        dr.text((x, y), line, font=f, fill=tuple(spec.get('fill', [10, 10, 10])) + (255,),
+                stroke_width=1, stroke_fill=tuple(spec.get('outline', [235, 235, 235])) + (255,))
 
 
 # ---------------------------------------------------------------- atlases of words
@@ -280,6 +300,81 @@ def draw_atlas(im, spec):
     return True
 
 
+# ---------------------------------------------------------------- text on any background
+def _cv():
+    import site
+    sys.path.append(site.getusersitepackages())
+    import cv2
+    import numpy as np
+    return cv2, np
+
+
+def draw_text_items(im, spec):
+    """spec['text']: list of items {box: [x0,y0,x1,y1] (optional), text, mask: light|dark|any,
+    thr, grow (mask dilation px), fill, outline, stroke, font, align, size}.
+    The old letters are found by brightness inside the box, removed by inpainting,
+    and the new text is drawn in the box."""
+    cv2, np = _cv()
+    items = spec['text'] if isinstance(spec['text'], list) else [dict(spec, text=spec['text'])]
+    arr = np.array(im)
+    for it in items:
+        rgb = arr[:, :, :3].astype(np.int32)
+        alpha = arr[:, :, 3]
+        lum = (rgb[:, :, 0] * 3 + rgb[:, :, 1] * 6 + rgb[:, :, 2]) // 10
+        kind = it.get('mask', 'light')
+        thr = it.get('thr', 170 if kind == 'light' else 70)
+        if kind == 'light':
+            m = (lum >= thr) & (alpha > 40)
+        elif kind == 'dark':
+            m = (lum <= thr) & (alpha > 40)
+        else:
+            m = alpha > 40
+        box = it.get('box')
+        region = np.zeros_like(m)
+        if box:
+            x0, y0, x1, y1 = box
+            region[y0:y1, x0:x1] = True
+        else:
+            region[:, :] = True
+        m &= region
+        if not m.any():
+            continue
+        if not box:
+            ys, xs = np.nonzero(m)
+            box = [int(xs.min()), int(ys.min()), int(xs.max()) + 1, int(ys.max()) + 1]
+        g = it.get('grow', 2)
+        mask = cv2.dilate(m.astype(np.uint8) * 255, np.ones((2 * g + 1, 2 * g + 1), np.uint8)) & (region * 255).astype(np.uint8)
+        bgr = cv2.cvtColor(arr[:, :, :3].copy(), cv2.COLOR_RGB2BGR)
+        bgr = cv2.inpaint(bgr, mask, 3, cv2.INPAINT_TELEA)
+        arr[:, :, :3] = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)
+        if it.get('clear_alpha'):
+            arr[:, :, 3][mask > 0] = 0
+        else:
+            arr[:, :, 3] = cv2.inpaint(arr[:, :, 3].copy(), mask, 3, cv2.INPAINT_TELEA)
+        canvas = Image.fromarray(arr, 'RGBA')
+        dr = ImageDraw.Draw(canvas)
+        x0, y0, x1, y1 = box
+        path = {'title': F_TITLE, 'bold': F_BOLD, 'label': F_LABEL}[it.get('font', 'bold')]
+        outline = it.get('outline')
+        stroke = it.get('stroke', 1 if outline else 0)
+        bw = x1 - x0 + it.get('wider', 0)
+        align0 = it.get('align', 'center')
+        room = (im.width - x0 - 1) if align0 == 'left' else (x1 - 1 if align0 == 'right' else im.width - 2)
+        bw = max(4, min(bw, room))
+        if 'size' in it:
+            f = ImageFont.truetype(path, it['size'])
+        else:
+            f = fit(path, it['text'], bw, y1 - y0 + it.get('taller', 1), start=it.get('max_size', 60), stroke=stroke)
+        l, t, r, b = dr.textbbox((0, 0), it['text'], font=f, stroke_width=stroke)
+        align = it.get('align', 'center')
+        x = x0 - l if align == 'left' else (x1 - (r - l) - l if align == 'right' else (x0 + x1) / 2 - (r - l) / 2 - l)
+        y = (y0 + y1) / 2 - (b - t) / 2 - t
+        kw = {'stroke_width': stroke, 'stroke_fill': tuple(outline) + (255,)} if outline else {}
+        dr.text((x, y), it['text'], font=f, fill=tuple(it.get('fill', [255, 255, 255])) + (255,), **kw)
+        arr = np.array(canvas)
+    im.paste(Image.fromarray(arr, 'RGBA'), (0, 0))
+
+
 # ---------------------------------------------------------------- driver
 def redraw(g, spec):
     im, info = gim.gim_to_image(g)
@@ -297,6 +392,8 @@ def redraw(g, spec):
         render_sprite(im, spec)
     elif 'plate' in spec:
         draw_plate(im, spec['plate'], spec)
+    elif 'text' in spec:
+        draw_text_items(im, spec)
     elif 'atlas' in spec or 'boxes' in spec:
         if not draw_atlas(im, spec):
             return None

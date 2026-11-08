@@ -1,0 +1,1149 @@
+{
+"_comment": "Race screens: rival names, course names, race messages, pause menu.",
+"f0e779fb05b7": {
+"text": [
+{
+"text": "Ацуро Каваи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"acafeb4eebaf": {
+"text": [
+{
+"text": "Бунта Фудзивара",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"444e93f32aed": {
+"text": [
+{
+"text": "Дайки Ниномия",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"f68a9dfe6a72": {
+"text": [
+{
+"text": "Парень на Evo V",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"65d6bb7eea3c": {
+"text": [
+{
+"text": "Парень на Evo VI",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"3cc936e5e95c": {
+"text": [
+{
+"text": "Коитиро Икэтани",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"85105f4e115b": {
+"text": [
+{
+"text": "Ицуки Такэути",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"c15702f7743d": {
+"text": [
+{
+"text": "Кай Когасива",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"9164d0b2526f": {
+"text": [
+{
+"text": "Кэйсукэ Такахаси",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"4c99a14af08e": {
+"text": [
+{
+"text": "Кэндзи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"76fb23046fa5": {
+"text": [
+{
+"text": "Кэнта Накамура",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"331b06683559": {
+"text": [
+{
+"text": "Кёко Ивасэ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"81722476be26": {
+"text": [
+{
+"text": "Мако и Саюки",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"515dcf994638": {
+"text": [
+{
+"text": "Мики",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"37bbb852874c": {
+"text": [
+{
+"text": "Такэси Накадзато",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"1fe752376205": {
+"text": [
+{
+"text": "Нобухико Акияма",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"13d9b259b643": {
+"text": [
+{
+"text": "Рёсукэ Такахаси",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"65c098689af7": {
+"text": [
+{
+"text": "Сакамото",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"da7f1280a32d": {
+"text": [
+{
+"text": "Сэйдзи Иваки",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"bb4f9ca9c953": {
+"text": [
+{
+"text": "Синго Сёдзи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"b532cb025551": {
+"text": [
+{
+"text": "Смайли Сакаи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"fc7a547136bc": {
+"text": [
+{
+"text": "Кёити Судо",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"52d0c5ca396e": {
+"text": [
+{
+"text": "Такуми Фудзивара",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"f21acb45e6f4": {
+"text": [
+{
+"text": "Двое из Токио",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"8b704137b43f": {
+"text": [
+{
+"text": "Томоюки Тати",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"0996a482ae77": {
+"text": [
+{
+"text": "Тоору Суэцугу",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"c3c33442b8ee": {
+"text": [
+{
+"text": "Ватару Акияма",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 2,
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 22
+}
+]
+},
+"26e6dc0648a2": {
+"text": [
+{
+"text": "Мёги",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+235,
+242,
+255
+],
+"outline": [
+20,
+60,
+170
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 60,
+"max_size": 20
+}
+]
+},
+"81f3fafa1d56": {
+"text": [
+{
+"text": "Усуи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+235,
+242,
+255
+],
+"outline": [
+20,
+60,
+170
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 60,
+"max_size": 20
+}
+]
+},
+"98b4e21ff54b": {
+"text": [
+{
+"text": "Акаги",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+235,
+242,
+255
+],
+"outline": [
+20,
+60,
+170
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 60,
+"max_size": 20
+}
+]
+},
+"51ada86846d8": {
+"text": [
+{
+"text": "Акина",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+235,
+242,
+255
+],
+"outline": [
+20,
+60,
+170
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 60,
+"max_size": 20
+}
+]
+},
+"ca0d01b418de": {
+"text": [
+{
+"text": "Ироха",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+235,
+242,
+255
+],
+"outline": [
+20,
+60,
+170
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 60,
+"max_size": 20
+}
+]
+},
+"d9edeaa0597f": {
+"text": [
+{
+"text": "Хаппо",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+235,
+242,
+255
+],
+"outline": [
+20,
+60,
+170
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 60,
+"max_size": 20
+}
+]
+},
+"4af9c46cd9f9": {
+"text": [
+{
+"text": "Сёмару",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+235,
+242,
+255
+],
+"outline": [
+20,
+60,
+170
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 60,
+"max_size": 20
+}
+]
+},
+"1cbda6d5d905": {
+"text": [
+{
+"text": "Цутисака",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+235,
+242,
+255
+],
+"outline": [
+20,
+60,
+170
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 60,
+"max_size": 20
+}
+]
+},
+"f12f2601d298": {
+"text": [
+{
+"text": "УРОВЕНЬ БУНТЫ ВЫШЕ!!",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+205,
+40
+],
+"outline": [
+150,
+30,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 400,
+"max_size": 18
+}
+]
+},
+"881f7ba2f697": {
+"text": [
+{
+"text": "УРОВЕНЬ ГОНЩИКА ВЫШЕ!!",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+205,
+40
+],
+"outline": [
+150,
+30,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 400,
+"max_size": 18
+}
+]
+},
+"4faac8254d9f": {
+"text": [
+{
+"text": "УРОВЕНЬ ГОНОК НИЖЕ...",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+205,
+40
+],
+"outline": [
+150,
+30,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 400,
+"max_size": 18
+}
+]
+},
+"cca08b2ceb26": {
+"text": [
+{
+"text": "УРОВЕНЬ ГОНОК ВЫШЕ!!",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+205,
+40
+],
+"outline": [
+150,
+30,
+0
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 400,
+"max_size": 18
+}
+]
+},
+"04e9aef5386a": {
+"text": [
+{
+"text": "НОВЫЙ РЕКОРД ТРАССЫ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+50,
+20
+],
+"outline": [
+255,
+245,
+220
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 400,
+"max_size": 18
+}
+]
+},
+"137f9dcb54e9": {
+"text": [
+{
+"text": "НОВЫЙ РЕКОРД ТРАССЫ (ДЛЯ МАШИНЫ)",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+50,
+20
+],
+"outline": [
+255,
+245,
+220
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 400,
+"max_size": 18
+}
+]
+},
+"bd61d61544da": {
+"text": [
+{
+"text": "НОВЫЙ ЛИЧНЫЙ РЕКОРД",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+50,
+20
+],
+"outline": [
+255,
+245,
+220
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 400,
+"max_size": 18
+}
+]
+},
+"6fe49056c7b8": {
+"text": [
+{
+"text": "НОВЫЙ РЕКОРД ТРАССЫ (ОБЩИЙ)",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+50,
+20
+],
+"outline": [
+255,
+245,
+220
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 400,
+"max_size": 18
+}
+]
+},
+"92133e70c571": {
+"text": [
+{
+"text": "НЕ ТУДА!",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+60,
+20
+],
+"outline": [
+255,
+230,
+120
+],
+"stroke": 2,
+"font": "title",
+"align": "left",
+"wider": 400,
+"max_size": 40
+}
+]
+},
+"aea1e34e3b41": {
+"text": [
+{
+"text": "Вернуться в гонку.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+40,
+40,
+40
+],
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 13
+}
+]
+},
+"12c02d76331b": {
+"text": [
+{
+"text": "Закончить гонку.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+40,
+40,
+40
+],
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 13
+}
+]
+},
+"063c5786229e": {
+"text": [
+{
+"text": "Начать гонку заново.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+40,
+40,
+40
+],
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 13
+}
+]
+},
+"97f1a3a549af": {
+"text": [
+{
+"text": "Закончить повтор.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+40,
+40,
+40
+],
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 13
+}
+]
+},
+"53687a2ae7ef": {
+"text": [
+{
+"text": "Вернуться к повтору.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+40,
+40,
+40
+],
+"font": "bold",
+"align": "left",
+"wider": 200,
+"max_size": 13
+}
+]
+}
+}
