@@ -23,7 +23,10 @@ sys.path.insert(0, TOOLS)
 import boot_build  # noqa: E402
 import fonts  # noqa: E402
 import gim  # noqa: E402
+import imgtr  # noqa: E402
 import rutext  # noqa: E402
+import talk  # noqa: E402
+import texts  # noqa: E402
 import xbb  # noqa: E402
 
 ISO_IN = os.path.join(ROOT, 'Initital_D_Street_Stage_JAP_PSP-DMU.iso')
@@ -35,6 +38,11 @@ OUT = os.path.join(ROOT, 'build', 'files')
 IMAGE_PARTS = {
     'select/sel_gamemode.bin.gz': ('work/ru/sel_gamemode', 'menu_gamemode.py'),
 }
+# archive -> function(items) -> (pairs [(jp, game text)], info); translates text files in place
+TEXT_PARTS = {}
+TEXT_PARTS.update(texts.PARTS)
+# rival dialogues stay Japanese (user decision): the archive is left untouched
+SKIP_ARCHIVES = {'rivaldemo/rivaldemo.bin.gz'}
 SKIP_DIRS = ('course', os.sep + 'car' + os.sep)
 JP = re.compile(r'[぀-ヿ一-鿿]')
 
@@ -122,15 +130,42 @@ def main():
 
     rels = list(archives())
     cache = {}
+    specs = imgtr.load_specs()
+    icache = {}
+    # loose .ana / .gim files
+    for root, _, files in os.walk(DATA):
+        for f in files:
+            if not f.endswith(('.ana', '.gim')):
+                continue
+            path = os.path.join(root, f)
+            rel = os.path.relpath(path, DATA).replace(os.sep, '/')
+            raw = open(path, 'rb').read()
+            done_img = []
+            new = imgtr.transform(raw, specs, done_img, icache)
+            if new != raw:
+                dst = os.path.join(OUT, rel.replace('/', '__'))
+                open(dst, 'wb').write(new)
+                pairs.append(f'PSP_GAME/USRDIR/data/{rel}={dst}')
+                print(f'{rel}: {len(done_img)} images redrawn')
     for rel in rels:
+        if rel in SKIP_ARCHIVES:
+            continue
         src = os.path.join(DATA, *rel.split('/'))
         items, gz = load_items(src)
         if items is None:
             continue
+        done_img = []
+        items = [(n, h, imgtr.transform(d, specs, done_img, icache)) for n, h, d in items]
         names = {n for n, _, _ in items}
         font_lsts = [n for n in names if n in fonts.FONTS]
-        if not font_lsts and rel not in IMAGE_PARTS:
+        if not font_lsts and rel not in IMAGE_PARTS and rel not in TEXT_PARTS and not done_img:
             continue
+        if done_img:
+            print(f'{rel}: {len(done_img)} images redrawn')
+        local_pairs = []
+        if rel in TEXT_PARTS:
+            local_pairs, info = TEXT_PARTS[rel](items)
+            print(f'{rel}: text {len(local_pairs)} translated, {info} missing')
         if rel in IMAGE_PARTS:
             png_dir = os.path.join(ROOT, IMAGE_PARTS[rel][0])
             done = []
@@ -138,7 +173,7 @@ def main():
             print(f'{rel}: {len(done)} images')
         for lst in font_lsts:
             lst_data = next(d for n, _, d in items if n == lst)
-            needed = font_needs(lst_data, pairs_tr, lst)
+            needed = font_needs(lst_data, pairs_tr + local_pairs, lst)
             if not needed:
                 continue
             keep = font_keeps(lst_data, remaining + archive_texts(items))
