@@ -1,0 +1,1832 @@
+{
+"_comment": "Time attack route/time/weather, retry menus, lobby, caution screen.",
+"bced7cb27933": {
+"text": [
+{
+"box": [
+18,
+10,
+185,
+56
+],
+"text": "ПОВТОРИТЬ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+13,
+73,
+189,
+120
+],
+"text": "ВЫБОР ТРАССЫ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+14,
+138,
+159,
+184
+],
+"text": "ВЫХОД",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"970006a730aa": {
+"text": [
+{
+"box": [
+31,
+75,
+150,
+114
+],
+"text": "ВЫХОД",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+32,
+139,
+185,
+178
+],
+"text": "ПОВТОРИТЬ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+29,
+202,
+168,
+242
+],
+"text": "ВЫБОР ТРАССЫ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"86a113927f38": {
+"text": [
+{
+"box": [
+1,
+2,
+29,
+15
+],
+"text": "ОБЩИЙ",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+170,
+20
+],
+"outline": [
+60,
+20,
+0
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+1,
+18,
+29,
+31
+],
+"text": "МАШИНА",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+170,
+20
+],
+"outline": [
+60,
+20,
+0
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+2,
+34,
+28,
+47
+],
+"text": "ЛИЧНЫЙ",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+170,
+20
+],
+"outline": [
+60,
+20,
+0
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+2,
+50,
+87,
+63
+],
+"text": "РЕКОРД ТРАССЫ",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+170,
+20
+],
+"outline": [
+60,
+20,
+0
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"c9a8c16b0c05": {
+"text": [
+{
+"box": [
+3,
+1,
+163,
+41
+],
+"text": "ПО ЧАСОВОЙ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+2,
+84,
+164,
+124
+],
+"text": "ПРОТИВ ЧАСОВОЙ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"89cc492c8077": {
+"text": [
+{
+"box": [
+2,
+0,
+126,
+32
+],
+"text": "ПО ЧАСОВОЙ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+1,
+64,
+127,
+96
+],
+"text": "ПРОТИВ ЧАСОВОЙ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"3cd5d466e234": {
+"text": [
+{
+"box": [
+10,
+11,
+121,
+53
+],
+"text": "ПО ЧАСОВОЙ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+20,
+40,
+120
+],
+"font": "title",
+"mask": "light",
+"thr": 25,
+"grow": 3,
+"glow": [
+90,
+160,
+255
+]
+},
+{
+"box": [
+7,
+73,
+122,
+119
+],
+"text": "ПРОТИВ ЧАСОВОЙ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+140,
+30,
+0
+],
+"font": "title",
+"mask": "light",
+"thr": 25,
+"grow": 3,
+"glow": [
+255,
+120,
+20
+]
+}
+]
+},
+"587ce124f8f1": {
+"text": [
+{
+"box": [
+13,
+1,
+152,
+40
+],
+"text": "ПОДЪЁМ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+19,
+84,
+147,
+124
+],
+"text": "СПУСК",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"47cafeb47417": {
+"text": [
+{
+"box": [
+10,
+0,
+118,
+31
+],
+"text": "ПОДЪЁМ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+14,
+65,
+113,
+96
+],
+"text": "СПУСК",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"df63df62b6db": {
+"text": [
+{
+"box": [
+9,
+12,
+119,
+52
+],
+"text": "ПОДЪЁМ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+20,
+40,
+120
+],
+"font": "title",
+"mask": "light",
+"thr": 25,
+"grow": 3,
+"glow": [
+90,
+160,
+255
+]
+},
+{
+"box": [
+12,
+73,
+116,
+119
+],
+"text": "СПУСК",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+140,
+30,
+0
+],
+"font": "title",
+"mask": "light",
+"thr": 25,
+"grow": 3,
+"glow": [
+255,
+120,
+20
+]
+}
+]
+},
+"a1817208ad57": {
+"text": [
+{
+"box": [
+7,
+1,
+158,
+41
+],
+"text": "ОБРАТНО",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"f32fc5aa3e47": {
+"text": [
+{
+"box": [
+5,
+0,
+123,
+31
+],
+"text": "ОБРАТНО",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"deaf15b8042f": {
+"text": [
+{
+"box": [
+8,
+11,
+120,
+52
+],
+"text": "ОБРАТНО",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+20,
+40,
+120
+],
+"font": "title",
+"mask": "light",
+"thr": 25,
+"grow": 3,
+"glow": [
+90,
+160,
+255
+]
+}
+]
+},
+"576ff2267d8e": {
+"text": [
+{
+"box": [
+9,
+1,
+156,
+41
+],
+"text": "ОБРАТНО",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+8,
+84,
+157,
+124
+],
+"text": "ТУДА",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"4a1fa84beede": {
+"text": [
+{
+"box": [
+7,
+0,
+121,
+32
+],
+"text": "ОБРАТНО",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+6,
+64,
+121,
+96
+],
+"text": "ТУДА",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+150,
+150,
+150
+],
+"outline": [
+30,
+30,
+30
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"cd902e094591": {
+"text": [
+{
+"box": [
+9,
+12,
+119,
+53
+],
+"text": "ОБРАТНО",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+20,
+40,
+120
+],
+"font": "title",
+"mask": "light",
+"thr": 25,
+"grow": 3,
+"glow": [
+90,
+160,
+255
+]
+},
+{
+"box": [
+7,
+73,
+121,
+119
+],
+"text": "ТУДА",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+140,
+30,
+0
+],
+"font": "title",
+"mask": "light",
+"thr": 25,
+"grow": 3,
+"glow": [
+255,
+120,
+20
+]
+}
+]
+},
+"d85dd6904f25": {
+"text": [
+{
+"box": [
+10,
+13,
+150,
+49
+],
+"text": "ВЫБОР МАШИНЫ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+23,
+77,
+167,
+113
+],
+"text": "ВЫБОР ПРАВИЛ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+10,
+141,
+151,
+177
+],
+"text": "ВЫБОР ТРАССЫ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+6,
+193,
+122,
+221
+],
+"text": "МАШИНА",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+131,
+193,
+255,
+221
+],
+"text": "ТРАССА",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+2,
+225,
+128,
+253
+],
+"text": "ПРАВИЛА",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"21a173eaac02": {
+"text": [
+{
+"box": [
+12,
+11,
+128,
+47
+],
+"text": "ПОВТОРИТЬ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+151,
+11,
+249,
+47
+],
+"text": "ПОВТОРИТЬ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+11,
+75,
+213,
+111
+],
+"text": "СМЕНИТЬ УСЛОВИЯ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+11,
+139,
+106,
+175
+],
+"text": "ВЫХОД",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+156,
+139,
+232,
+175
+],
+"text": "ВЫХОД",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+17,
+207,
+205,
+235
+],
+"text": "СМЕНИТЬ УСЛОВИЯ",
+"max_size": 24,
+"align": "center",
+"wider": 30,
+"stroke": 2,
+"fill": [
+225,
+225,
+225
+],
+"outline": [
+40,
+40,
+40
+],
+"font": "title",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"68422f2bda04": {
+"text": [
+{
+"box": [
+1,
+1,
+36,
+19
+],
+"text": "Имя",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+49,
+1,
+100,
+19
+],
+"text": "Машина",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+112,
+1,
+180,
+19
+],
+"text": "Карт",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+195,
+1,
+242,
+19
+],
+"text": "Трасса",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+1,
+21,
+68,
+39
+],
+"text": "Итоги",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+78,
+21,
+127,
+39
+],
+"text": "Карта",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+142,
+21,
+241,
+39
+],
+"text": "Тип гонки",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+1,
+41,
+84,
+59
+],
+"text": "Уровень",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+129,
+41,
+240,
+59
+],
+"text": "Задержка старта",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+1,
+61,
+110,
+79
+],
+"text": "Гандикап",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+130,
+61,
+234,
+79
+],
+"text": "Преимущество",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+2,
+81,
+104,
+99
+],
+"text": "Отсчёт",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+131,
+81,
+243,
+99
+],
+"text": "Коллекция",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+1,
+101,
+109,
+119
+],
+"text": "Число карт",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+131,
+101,
+195,
+119
+],
+"text": "Ускорение",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+},
+{
+"box": [
+217,
+101,
+253,
+119
+],
+"text": "Победы",
+"max_size": 11,
+"align": "left",
+"wider": 30,
+"stroke": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"mask": "any",
+"clear_alpha": true
+}
+]
+},
+"c35e32038c42": {
+"text": [
+{
+"box": [
+0,
+1,
+88,
+19
+],
+"text": "Соперник",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 60
+},
+{
+"box": [
+0,
+21,
+89,
+39
+],
+"text": "Условия гонки",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 60
+},
+{
+"box": [
+0,
+41,
+116,
+59
+],
+"text": "Партнёр по обмену",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 60
+},
+{
+"box": [
+0,
+61,
+131,
+79
+],
+"text": "Партнёр по повторам",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 60
+},
+{
+"box": [
+0,
+81,
+131,
+99
+],
+"text": "Партнёр по повторам",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+250,
+0
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 60
+},
+{
+"box": [
+0,
+101,
+131,
+119
+],
+"text": "Партнёр по повторам",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 60
+},
+{
+"box": [
+0,
+121,
+145,
+139
+],
+"text": "Участник сравнения",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 60
+},
+{
+"box": [
+0,
+141,
+145,
+159
+],
+"text": "Организатор",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 60
+},
+{
+"box": [
+0,
+161,
+145,
+179
+],
+"text": "Организатор",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+250,
+0
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 13,
+"align": "left",
+"wider": 60
+}
+]
+},
+"0f0eb8c852b7": {
+"text": [
+{
+"box": [
+20,
+8,
+500,
+120
+],
+"text": "Эта игра — вымысел. За рулём в жизни\nсоблюдайте правила и будьте осторожны.",
+"mask": "light",
+"thr": 120,
+"grow": 2,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 20
+}
+]
+}
+}

@@ -1,0 +1,1207 @@
+{
+"_comment": "Course select screens.",
+"a5cf38374857": {
+"text": [
+{
+"box": [
+1,
+1,
+26,
+15
+],
+"text": "ЛЕГКО",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+1,
+16,
+63,
+42
+],
+"text": "Мёги",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+},
+{
+"box": [
+65,
+1,
+90,
+15
+],
+"text": "СРЕДНЕ",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+65,
+16,
+127,
+42
+],
+"text": "Усуи",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+},
+{
+"box": [
+129,
+1,
+154,
+15
+],
+"text": "ТРУДНО",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+129,
+16,
+191,
+42
+],
+"text": "Акаги",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+},
+{
+"box": [
+193,
+1,
+218,
+15
+],
+"text": "ТРУДНО",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+193,
+16,
+255,
+42
+],
+"text": "Акина",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+},
+{
+"box": [
+1,
+44,
+38,
+58
+],
+"text": "ЭКСПЕРТ",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+1,
+59,
+63,
+85
+],
+"text": "Ироха",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+},
+{
+"box": [
+65,
+44,
+102,
+58
+],
+"text": "ЭКСПЕРТ",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+65,
+59,
+127,
+85
+],
+"text": "Хаппо",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+},
+{
+"box": [
+129,
+44,
+166,
+58
+],
+"text": "ЭКСПЕРТ",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+129,
+59,
+191,
+85
+],
+"text": "Сёмару",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+},
+{
+"box": [
+193,
+44,
+230,
+58
+],
+"text": "ЭКСПЕРТ",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+193,
+59,
+255,
+85
+],
+"text": "Цутисака",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+},
+{
+"box": [
+0,
+86,
+63,
+127
+],
+"text": "Недоступно",
+"mask": "light",
+"thr": 190,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 12
+},
+{
+"box": [
+65,
+86,
+90,
+100
+],
+"text": "ТРУДНО",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+65,
+101,
+127,
+127
+],
+"text": "4 перевала",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+},
+{
+"box": [
+129,
+86,
+166,
+100
+],
+"text": "ЭКСПЕРТ",
+"mask": "light",
+"thr": 200,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 10,
+"grow": 1
+},
+{
+"box": [
+129,
+101,
+191,
+127
+],
+"text": "4 перевала",
+"mask": "light",
+"thr": 185,
+"fill": [
+255,
+255,
+255
+],
+"outline": [
+0,
+0,
+0
+],
+"stroke": 1,
+"font": "bold",
+"align": "right",
+"max_size": 15,
+"grow": 2
+}
+]
+},
+"5f568d412b01": {
+"text": [
+{
+"text": "▲▼ — выбор музыки",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+200,
+255,
+80
+],
+"outline": [
+0,
+40,
+0
+],
+"stroke": 1,
+"font": "bold",
+"max_size": 12,
+"wider": 60
+}
+]
+},
+"2a5de3520305": {
+"text": [
+{
+"box": [
+112,
+2,
+200,
+15
+],
+"text": "Уровень Бунты▼",
+"mask": "light",
+"thr": 190,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 12,
+"align": "left",
+"wider": 40
+}
+]
+},
+"4007ec4ff9c4": {
+"text": [
+{
+"text": "СОХРАНИТЬ ПОВТОР",
+"mask": "light",
+"clear_alpha": false,
+"fill": [
+255,
+255,
+255
+],
+"font": "title",
+"max_size": 30,
+"align": "center",
+"wider": 0,
+"outline": [
+20,
+60,
+160
+],
+"stroke": 2,
+"glow": [
+60,
+140,
+255
+],
+"thr": 25,
+"grow": 3
+}
+]
+},
+"b5c21c5af18a": {
+"text": [
+{
+"text": "ДАЛЕЕ",
+"mask": "light",
+"clear_alpha": false,
+"fill": [
+255,
+255,
+255
+],
+"font": "title",
+"max_size": 30,
+"align": "center",
+"wider": 0,
+"outline": [
+120,
+20,
+140
+],
+"stroke": 2,
+"glow": [
+220,
+90,
+255
+],
+"thr": 25,
+"grow": 3
+}
+]
+},
+"bc2f9a14f8c8": {
+"text": [
+{
+"text": "ПОВТОР",
+"mask": "light",
+"clear_alpha": false,
+"fill": [
+255,
+255,
+255
+],
+"font": "title",
+"max_size": 30,
+"align": "center",
+"wider": 0,
+"outline": [
+160,
+40,
+0
+],
+"stroke": 2,
+"glow": [
+255,
+120,
+20
+],
+"thr": 25,
+"grow": 3
+}
+]
+},
+"aba4950ea263": {
+"text": [
+{
+"text": "Выберите карту.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 12,
+"align": "left",
+"wider": 100
+}
+]
+},
+"f2d609f9e600": {
+"text": [
+{
+"text": " — получено.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 12,
+"align": "left",
+"wider": 100
+}
+]
+},
+"d37956fd63bd": {
+"text": [
+{
+"text": "Открыт новый раздел коллекции карт.",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+255,
+255,
+255
+],
+"font": "bold",
+"max_size": 12,
+"align": "left",
+"wider": 200
+}
+]
+},
+"ddd14ce7d62f": {
+"text": [
+{
+"box": [
+6,
+1,
+124,
+37
+],
+"text": "ПОВТОР",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+230,
+230,
+230
+],
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2,
+"font": "title",
+"max_size": 20,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+6,
+41,
+186,
+77
+],
+"text": "СОХРАНИТЬ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+230,
+230,
+230
+],
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2,
+"font": "title",
+"max_size": 20,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+5,
+82,
+83,
+116
+],
+"text": "ДАЛЕЕ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+230,
+230,
+230
+],
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2,
+"font": "title",
+"max_size": 20,
+"align": "left",
+"wider": 40
+}
+]
+},
+"4ab54408d898": {
+"text": [
+{
+"box": [
+0,
+6,
+130,
+73
+],
+"text": "Цутисака",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+25,
+25,
+25
+],
+"outline": [
+235,
+235,
+235
+],
+"stroke": 2,
+"font": "title",
+"max_size": 26,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+7,
+90,
+185,
+161
+],
+"text": "Хаппо",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+25,
+25,
+25
+],
+"outline": [
+235,
+235,
+235
+],
+"stroke": 2,
+"font": "title",
+"max_size": 26,
+"align": "left",
+"wider": 40
+},
+{
+"box": [
+6,
+178,
+185,
+247
+],
+"text": "Ироха",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+25,
+25,
+25
+],
+"outline": [
+235,
+235,
+235
+],
+"stroke": 2,
+"font": "title",
+"max_size": 26,
+"align": "left",
+"wider": 40
+}
+]
+},
+"d5260c2e433a": {
+"text": [
+{
+"text": "ВЗЯ",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"7f69247672a4": {
+"text": [
+{
+"text": "ТА!",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"0c8e1efd7e34": {
+"text": [
+{
+"text": "ЗОНА",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"72d73292b336": {
+"text": [
+{
+"text": "Мёги",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"5f6cf33d1a80": {
+"text": [
+{
+"text": "Усуи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"06e1a440d6c5": {
+"text": [
+{
+"text": "Акаги",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"4c8e66a6ede3": {
+"text": [
+{
+"text": "Акина",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"87a7fca7e9f6": {
+"text": [
+{
+"text": "Хаппо",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"52f837cb362e": {
+"text": [
+{
+"text": "Ироха",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"67dbcc6fa973": {
+"text": [
+{
+"text": "Сёмару",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+240,
+240,
+240
+],
+"font": "title",
+"max_size": 48,
+"align": "center",
+"wider": 0,
+"outline": [
+40,
+40,
+40
+],
+"stroke": 2
+}
+]
+},
+"78fb29919a2e": {
+"text": [
+{
+"box": [
+2,
+1,
+123,
+75
+],
+"text": "Акаги",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+25,
+25,
+25
+],
+"outline": [
+235,
+235,
+235
+],
+"stroke": 2,
+"font": "title",
+"max_size": 30,
+"align": "left",
+"wider": 10
+},
+{
+"box": [
+127,
+1,
+248,
+75
+],
+"text": "Сёмару",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+25,
+25,
+25
+],
+"outline": [
+235,
+235,
+235
+],
+"stroke": 2,
+"font": "title",
+"max_size": 30,
+"align": "left",
+"wider": 10
+},
+{
+"box": [
+2,
+84,
+128,
+153
+],
+"text": "Усуи",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+25,
+25,
+25
+],
+"outline": [
+235,
+235,
+235
+],
+"stroke": 2,
+"font": "title",
+"max_size": 30,
+"align": "left",
+"wider": 10
+},
+{
+"box": [
+4,
+165,
+118,
+238
+],
+"text": "Мёги",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+25,
+25,
+25
+],
+"outline": [
+235,
+235,
+235
+],
+"stroke": 2,
+"font": "title",
+"max_size": 30,
+"align": "left",
+"wider": 10
+},
+{
+"box": [
+130,
+165,
+248,
+238
+],
+"text": "Акина",
+"mask": "any",
+"clear_alpha": true,
+"fill": [
+25,
+25,
+25
+],
+"outline": [
+235,
+235,
+235
+],
+"stroke": 2,
+"font": "title",
+"max_size": 30,
+"align": "left",
+"wider": 10
+}
+]
+}
+}

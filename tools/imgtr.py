@@ -370,6 +370,13 @@ def draw_text_items(im, spec):
         x = x0 - l if align == 'left' else (x1 - (r - l) - l if align == 'right' else (x0 + x1) / 2 - (r - l) / 2 - l)
         y = (y0 + y1) / 2 - (b - t) / 2 - t
         kw = {'stroke_width': stroke, 'stroke_fill': tuple(outline) + (255,)} if outline else {}
+        if it.get('glow'):
+            from PIL import ImageFilter
+            layer = Image.new('L', canvas.size, 0)
+            ImageDraw.Draw(layer).text((x, y), it['text'], font=f, fill=255, stroke_width=stroke + 2)
+            halo = layer.filter(ImageFilter.GaussianBlur(it.get('glow_r', 4))).point(lambda v: min(255, v * 3))
+            canvas.paste(Image.new('RGBA', canvas.size, tuple(it['glow']) + (255,)), (0, 0), halo)
+            dr = ImageDraw.Draw(canvas)
         dr.text((x, y), it['text'], font=f, fill=tuple(it.get('fill', [255, 255, 255])) + (255,), **kw)
         arr = np.array(canvas)
     im.paste(Image.fromarray(arr, 'RGBA'), (0, 0))
