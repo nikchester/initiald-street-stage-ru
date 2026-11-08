@@ -1,7 +1,7 @@
-"""Test: Russian text in BOOT.BIN (save dialogs) + Cyrillic in ms_error font.
+"""Test: Russian text in BOOT.BIN with the proportional renderer.
 
 Input: build/InitialD_RU.iso (run build.py first).
-Output: build/InitialD_RU_boottest.iso. BOOT.BIN is patched and also put in
+Output: build/InitialD_RU_boottest.iso. The patched BOOT.BIN is also put in
 place of the encrypted EBOOT.BIN.
 """
 import os
@@ -12,8 +12,10 @@ TOOLS = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(TOOLS)
 sys.path.insert(0, TOOLS)
 import boottext  # noqa: E402
+import bootpatch  # noqa: E402
 import fontset  # noqa: E402
-import gimfont  # noqa: E402
+import prx  # noqa: E402
+import rutext  # noqa: E402
 
 EXT = os.path.join(ROOT, 'extracted', 'PSP_GAME')
 OUT = os.path.join(ROOT, 'build', 'files')
@@ -22,34 +24,32 @@ ISO_OUT = os.path.join(ROOT, 'build', 'InitialD_RU_boottest.iso')
 
 TEXTS = [
     ('システムデータがありません。\nメモリースティックФにシステムデータを\n新しく作成しますか？',
-     'Нет системных данных．\nСоздать их？'),
+     'Системных данных нет.\nСоздать новые системные данные\nна Memory Stick?'),
     ('セーブしないでゲームを開始します。\nよろしいですか？\nオプションで',
-     'Играть без сохранения？\nАвтосохранение будет\nотключено．'),
+     'Игра начнётся без сохранения. Продолжить?\n'
+     'Пока вы не создадите сохранение в настройках,\nавтосохранение работать не будет.'),
 ]
 MS_ERROR_ARCHIVES = ['save/save_data.bin.gz', 'memscene/memscene.bin.gz', 'homepage/hp_data_00.bin.gz']
 
 
-def glyph(ch):
-    if ch == '．':
-        return gimfont.render_glyph('.', r'C:\Windows\Fonts\YuGothM.ttc', 15)
-    return gimfont.render_glyph(ch, r'C:\Windows\Fonts\YuGothM.ttc', 15)
-
-
 def main():
     os.makedirs(OUT, exist_ok=True)
-    boot = bytearray(open(os.path.join(EXT, 'SYSDIR', 'BOOT.BIN'), 'rb').read())
-    chars = ''
+    boot = open(os.path.join(EXT, 'SYSDIR', 'BOOT.BIN'), 'rb').read()
+    p = prx.Prx(boot)
+    strings, chars = [], ''
     for jp, ru in TEXTS:
-        offs = boottext.find_string(boot, jp)
+        offs = boottext.find_string(p.b, jp)
         assert len(offs) == 1, (jp, offs)
-        used, cap = boottext.replace_inplace(boot, offs[0], ru)
-        print(f'0x{offs[0]:x}: {used}/{cap} bytes')
-        chars += ru
+        game = rutext.to_game(ru)
+        strings.append((p.off2va(offs[0]), game))
+        chars += game
+    new_boot, rep = bootpatch.build(boot, strings, rutext.width_table())
+    print('BOOT.BIN:', rep)
     boot_path = os.path.join(OUT, 'BOOT.BIN')
-    open(boot_path, 'wb').write(boot)
+    open(boot_path, 'wb').write(new_boot)
 
-    fontset.add_chars.__defaults__ = (glyph,)
-    uniq = ''.join(dict.fromkeys(chars))
+    uniq = ''.join(dict.fromkeys(c for c in chars if c not in ' \n'))
+    fontset.add_chars.__defaults__ = (lambda ch: rutext.glyph(ch)[0],)
     pairs = [f'PSP_GAME/SYSDIR/BOOT.BIN={boot_path}', f'PSP_GAME/SYSDIR/EBOOT.BIN={boot_path}']
     for a in MS_ERROR_ARCHIVES:
         dst = os.path.join(OUT, os.path.basename(a))
